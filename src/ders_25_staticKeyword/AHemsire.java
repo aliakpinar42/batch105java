@@ -3,10 +3,10 @@ package ders_25_staticKeyword;
 public class AHemsire {
     static String hastaneIsmi="Yildiz Hastanesi";
     static String hastaneAdresi="Cankaya / Ankara";
-    static String bashekimIsmi="Dr Mehmet Yilmaz";
-    String personelIsim="Isim belirtilmedi";
-    String personelAdresi="Adres belirtilmedi";
-    String personelTelefon="Telefon belirtilmedi";
+    public static String bashekimIsmi="Dr Mehmet Yilmaz";
+    public String personelIsim="Isim belirtilmedi";
+    public String personelAdresi="Adres belirtilmedi";
+    public String personelTelefon="Telefon belirtilmedi";
     @Override
     public String toString() {
         return "AHemsire{" +
